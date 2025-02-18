@@ -109,11 +109,11 @@ export const Form = () => {
         }
     },[userfav])
     return (
-        <div>
+        <div className="h-[900px]"> 
             <div>
                 <h1 className="text-center">Form with Customize Validations</h1>
             </div>
-            <div className="border-2 border-black mt-[10px]">
+            <div className="border-2 border-black mt-[10px] bg-gray-200 h-[700px]">
                 <form onSubmit={SubmitForm}>
                     <div>
                         <label>User Name:-</label><br />
